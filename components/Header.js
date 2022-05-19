@@ -87,7 +87,7 @@ function Header() {
               />
             </>
           ) : (
-            <button className="!mr-4 sm:text-sm" onClick={signIn}>
+            <button className="whitespace-nowrap" onClick={signIn}>
               Sign In
             </button>
           )}
